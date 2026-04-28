@@ -28,6 +28,7 @@ def generate_story(seed_word):
     )
     return paragraph
 
-seed_word = input("Enter a seed word: ").strip().lower()
+# seed_word = input("Enter a seed word: ").strip().lower()
 print("\nGenerated Story:\n")
+seed_word = "adventure"
 print(generate_story(seed_word))

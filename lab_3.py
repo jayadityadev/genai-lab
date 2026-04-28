@@ -25,7 +25,8 @@ word2vec_model = Word2Vec(
     epochs=1000
 )
 
-query_word = input("Enter a word: ").lower()
+# query_word = input("Enter a word: ").lower()
+query_word = "doctors"
 
 if query_word in word2vec_model.wv:
     similar_words = word2vec_model.wv.most_similar(query_word, topn=5)

@@ -6,7 +6,7 @@ from transformers import pipeline
 
 nltk.download('punkt_tab')
 
-print("Loading pre-trained GloVe word vectors (100 dimensions)...")
+print("Loading pre-trained GloVe model (100 dimensions)...")
 glove_model = load("glove-wiki-gigaword-100")
 
 print("Loading GPT-2 text generation model...")
