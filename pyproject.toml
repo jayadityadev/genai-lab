@@ -9,4 +9,11 @@ dependencies = [
 	"nltk==3.9.1",
 	"transformers==4.45.2",
 	"torch==2.5.1",
+	"pymupdf>=1.27.2.3",
+	"langchain==0.1.13",
+	"cohere==5.5.8",
+	"langchain-community==0.0.34",
+	"langchain-cohere==0.1.0",
+	"wikipedia-api>=0.10.2",
+	"pydantic>=2.13.4",
 ]
